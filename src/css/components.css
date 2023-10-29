@@ -1,0 +1,30 @@
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #1C2225;
+}
+
+.container {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+    outline: 1px solid red;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1120px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1280px;
+    }
+}
